@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+.slick-slide {
+    display: flex; /* Ensure cards are displayed as flex items */
+    justify-content: center; /* Center align each card */
+  }
+  
+  .slick-prev, .slick-next {
+    z-index: 1; /* Ensure arrows are above the slider content */
+  }
